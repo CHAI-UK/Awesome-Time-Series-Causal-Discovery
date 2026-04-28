@@ -6,8 +6,8 @@ We aim to provide a comprehensive overview for researchers, developers, and enth
 
 ## Contents
 
-*  [Preliminaries and Problem Statement](#preliminaries-and-problem-statement)
-*  [Methods for Causal Discovery with Time Series](#methods-for-causal-discovery-with-time-series)
+*  [Getting Started: Where do I begin?](#preliminaries-and-problem-statement)
+*  [Methods for TSCD](#methods-for-causal-discovery-with-time-series)
 *  [Best Practices for Evaluation and Tuning](#best-practices-for-evaluation-and-tuning)
 *  [Impact and Application Across Domains](#impact-and-application-across-domains)
 *   [Contributing](#contributing)
