@@ -15,6 +15,8 @@ This repository is a companion guide to our tutorial paper *(coming soon)*. Whet
   - [Core Assumptions](#core-assumptions)
   - [Textbooks and References of Note](#textbooks-and-references-of-note)
 - [Software and Toolkits](#software-and-toolkits)
+  - [Libraries](#libraries)
+  - [Individual Methods](#individual-methods)
 - [Benchmark Datasets and Simulation Platforms](#benchmark-datasets-and-simulation-platforms)
 - [Best Practices: Evaluation and Tuning](#best-practices-evaluation-and-tuning)
   - [Hyperparameter Selection](#hyperparameter-selection)
@@ -100,6 +102,8 @@ Almost all TSCD methods implicitly rely on some subset of these assumptions. Und
 ---
 
 ## Software and Toolkits
+
+ ### Libraries
  
 | Tool | Language | Key Methods | Notes |
 |------|----------|-------------|-------|
@@ -113,7 +117,16 @@ Almost all TSCD methods implicitly rely on some subset of these assumptions. Und
 | **[TETRAD](https://github.com/cmu-phil/tetrad)** | Java / Python (`py-tetrad`) | PC, FCI, FGES, tsFCI, and many more | CMU's comprehensive suite; decades of development; mature and well-tested |
 | **[rEDM](https://github.com/SugiharaLab/rEDM)** | R / Python | CCM, Simplex projection, S-map | Official Sugihara Lab implementation of CCM and empirical dynamic modelling |
 | **[pywhy-graphs](https://github.com/py-why/pywhy-graphs)** | Python | Graph utilities | Causal graph data structures and algorithms (py-why ecosystem) |
+
+### Individual Methods
+
  
+| Method | Family | Language | Paper link | Notes |
+|------|----------|----------|----------|-------------|
+| [Diffusion Ordered Temporal Structure (DOTS)](https://github.com/CHAI-UK/DOTS) | Score-based | Python | [paper](https://openreview.net/forum?id=hWuTzqggSd) | A score-based method that uses diffusion-based modelling to generate plausible causal orderings to discover causal structure |
+| [Tangent Space Causal Inference (TSCI)](https://github.com/KurtButler/tangentspaces) | Cross mapping | Python | [paper](https://openreview.net/forum?id=Bj2CpB9Dey) | A modified version of the CCM algorithm that detects causation by detecting if reconstructed state-spaces have related velocity vector fields |
+
+
 ---
 
 
