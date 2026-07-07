@@ -117,6 +117,7 @@ Almost all TSCD methods implicitly rely on some subset of these assumptions. Und
 | **[TETRAD](https://github.com/cmu-phil/tetrad)** | Java / Python (`py-tetrad`) | PC, FCI, FGES, tsFCI, and many more | CMU's comprehensive suite; decades of development; mature and well-tested |
 | **[rEDM](https://github.com/SugiharaLab/rEDM)** | R / Python | CCM, Simplex projection, S-map | Official Sugihara Lab implementation of CCM and empirical dynamic modelling |
 | **[pywhy-graphs](https://github.com/py-why/pywhy-graphs)** | Python | Graph utilities | Causal graph data structures and algorithms (py-why ecosystem) |
+| **[TSCD Benchmark](https://chai-uk.github.io/tscd-benchmark/)** | Python/R | DOTS, DiffAN, TCDF, TiMINo, PCMCI/PCMCI+, VARLiNGAM, DYNOTEARS | Snakemake-based reproducible framework for TSCD; includes simulations, Finance, fMRI and CausalTime datasets |
 
 ### Individual Methods
 
