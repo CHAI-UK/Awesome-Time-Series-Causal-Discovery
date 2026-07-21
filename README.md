@@ -2,8 +2,9 @@
 
 > A curated list of research papers, software tools, datasets, and resources for **Time Series Causal Discovery (TSCD)** — the task of recovering causal structure from observational time series data.
  
-This repository is a companion guide to our tutorial paper *(coming soon)*. Whether you are new to the field or an active researcher, we hope it serves as a useful entry point and reference. 
+This repository is a companion guide to our tutorial paper *(coming soon)*. We hope to provide a long-list of papers, software and miscellany related to causal discovery with time series. Whether you are new to the field or an active researcher, we hope it serves as a useful entry point and reference. 
 
+If you are interested in contributing to the repository, see the [Contributing](#contributing) section below.
 
 
 ## Contents
