@@ -42,6 +42,26 @@ Why does this matter? Standard predictive models exploit statistical regularitie
 
 Time series are a unique modality: temporal information is embedded in the structure of the data itself, enabling the use of temporal precedence ("causes precede effects") as a powerful inductive bias that is unavailable in other data types.
 
+At a glance, TSCD methods can be arranged in a broad taxonomy:
+```
+Time-Series Causal Discovery
+│
+├── Predictive causality
+│   ├── Granger causality
+│   └── Information-theoretic
+│
+├── Dynamical-systems causality
+│   └── Cross mapping
+│
+└── Structural causality
+    ├── Constraint-based
+    ├── Score-based
+    ├── Functional-model-based
+    ├── Differentiable search
+    └── Supervised / Amortized
+```
+There are, naturally, alternative approaches not represented in the taxonomy. Some inference principles, such as [dimensional causality](https://doi.org/10.1016/j.chaos.2024.115142) (dynamical systems) or [information-geometric causal discovery](https://doi.org/10.1016/j.artint.2012.01.002) (functional-model-based), have attracted academic interest but remain niche relative to the majority of causal discovery research. We encourage the interested reader to consider how other methods might fit into this taxonomy. 
+
 
 ## Getting Started
  
