@@ -148,6 +148,7 @@ Almost all TSCD methods implicitly rely on some subset of these assumptions. Und
 | [Diffusion Ordered Temporal Structure (DOTS)](https://github.com/CHAI-UK/DOTS) | Score-based | Python | [paper](https://openreview.net/forum?id=hWuTzqggSd) | A score-based method that uses diffusion-based modelling to generate plausible causal orderings to discover causal structure |
 | [Tangent Space Causal Inference (TSCI)](https://github.com/KurtButler/tangentspaces) | Cross mapping | Python | [paper](https://openreview.net/forum?id=Bj2CpB9Dey) | A modified version of the CCM algorithm that detects causation by detecting if reconstructed state-spaces have related velocity vector fields |
 | [Temporal Dependency to Causality (TD2C)](https://github.com/gmpal/TD2C-PP) | Amortized causal discovery  | Python | [paper](https://arxiv.org/abs/2508.01848) | Learns causal edges from mutual-information feature representations of candidate temporal dependencies, trained on synthetic data |
+| Causal Graph Neural Networks | Function-based  | - | [paper](https://arxiv.org/abs/2511.02531) | Combines graph neural networks with structural causal models to learn invariant functional relationships from graph-structured time series and healthcare data. |
 
 
 ---
