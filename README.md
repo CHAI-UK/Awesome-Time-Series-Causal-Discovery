@@ -247,7 +247,7 @@ Please ensure links are working and entries are placed in the appropriate sectio
 ---
 
 ## Citation
-Please cite our paper if you found our tutorial paper helpful:
+Please consider citing our paper if you found our tutorial paper helpful for your project:
 ```bibtex
 @article{butler2026one,
   title={One Thing Leads to Another: The Essentials of Time Series Causal Discovery},
