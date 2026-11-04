@@ -2,7 +2,9 @@
 
 > A curated list of research papers, software tools, datasets, and resources for **Time Series Causal Discovery (TSCD)** — the task of recovering causal structure from observational time series data.
  
-This repository is a companion guide to our tutorial paper *(coming soon)*. We hope to provide a long-list of papers, software and miscellany related to causal discovery with time series. Whether you are new to the field or an active researcher, we hope it serves as a useful entry point and reference. 
+This repository is a companion guide to our [tutorial article](https://arxiv.org/abs/2610.13430). We hope to provide a long-list of papers, software and miscellany related to causal discovery with time series. Whether you are new to the field or an active researcher, we hope it serves as a useful entry point and reference. 
+
+If you want a quick-start guide to help you pick a first baseline method for your project, try visiting our [Quick-Start Guide page](https://github.com/CHAI-UK/Awesome-Time-Series-Causal-Discovery/blob/main/QUICKSTART.md).
 
 If you are interested in contributing to the repository, see the [Contributing](#contributing) section below.
 
@@ -247,5 +249,11 @@ Please ensure links are working and entries are placed in the appropriate sectio
 ## Citation
 Please cite our paper if you found our tutorial paper helpful:
 ```bibtex
-Coming soon
+@article{butler2026one,
+  title={One Thing Leads to Another: The Essentials of Time Series Causal Discovery},
+  author={Butler, Kurt and Machlanski, Damian and Camilleri, Michael PJ and Liu, Zhihua and Dimitrakopoulos, Panagiotis and Chen, Feng and Silva, Ricardo and Tsaftaris, Sotirios A},
+  journal={arXiv preprint arXiv:2610.13430},
+  year={2026},
+  note={Accepted for publication in the IEEE Signal Processing Magazine}
+}
 ```
