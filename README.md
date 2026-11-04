@@ -4,7 +4,7 @@
  
 This repository is a companion guide to our [tutorial article](https://arxiv.org/abs/2610.13430). We hope to provide a long-list of papers, software and miscellany related to causal discovery with time series. Whether you are new to the field or an active researcher, we hope it serves as a useful entry point and reference. 
 
-If you want a quick-start guide to help you pick a first baseline method for your project, try visiting our [Quick-Start Guide page](https://github.com/CHAI-UK/Awesome-Time-Series-Causal-Discovery/blob/main/QUICKSTART.md).
+If you want a quick-start guide to help you pick a first baseline method for your project, try our [Quick-Start Guide](https://github.com/CHAI-UK/Awesome-Time-Series-Causal-Discovery/blob/main/QUICKSTART.md).
 
 If you are interested in contributing to the repository, see the [Contributing](#contributing) section below.
 
